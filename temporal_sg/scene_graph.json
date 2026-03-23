@@ -1,0 +1,454 @@
+{
+    "entities": [
+        {
+            "id": "P1",
+            "type": "Person",
+            "description": "Lead Attacker"
+        },
+        {
+            "id": "P2",
+            "type": "Person",
+            "description": "Second Attacker"
+        },
+        {
+            "id": "P3",
+            "type": "Person",
+            "description": "Silver-haired tourist"
+        },
+        {
+            "id": "P4",
+            "type": "Person",
+            "description": "Akash (Waiter)"
+        },
+        {
+            "id": "P5",
+            "type": "Person",
+            "description": "Mumbai Police"
+        },
+        {
+            "id": "O1",
+            "type": "Object",
+            "description": "Backpack 1"
+        },
+        {
+            "id": "O2",
+            "type": "Object",
+            "description": "AK-47"
+        },
+        {
+            "id": "O3",
+            "type": "Object",
+            "description": "Backpack 2"
+        },
+        {
+            "id": "O4",
+            "type": "Object",
+            "description": "Grenade"
+        },
+        {
+            "id": "O5",
+            "type": "Object",
+            "description": "Beer Bottle"
+        },
+        {
+            "id": "O6",
+            "type": "Object",
+            "description": "Wooden Refrigerator"
+        },
+        {
+            "id": "L1",
+            "type": "Location",
+            "description": "Leopold Cafe Entrance"
+        },
+        {
+            "id": "L2",
+            "type": "Location",
+            "description": "Dining Area"
+        },
+        {
+            "id": "L3",
+            "type": "Location",
+            "description": "Mezzanine"
+        },
+        {
+            "id": "L4",
+            "type": "Location",
+            "description": "Taj Mahal Palace Hotel"
+        },
+        {
+            "id": "A1",
+            "type": "Attribute",
+            "description": "Early 20s"
+        },
+        {
+            "id": "A2",
+            "type": "Attribute",
+            "description": "Heavy"
+        },
+        {
+            "id": "A3",
+            "type": "Attribute",
+            "description": "Blue"
+        },
+        {
+            "id": "A4",
+            "type": "Attribute",
+            "description": "Casual Cargo Trousers"
+        },
+        {
+            "id": "A5",
+            "type": "Attribute",
+            "description": "Taped Double Magazine"
+        },
+        {
+            "id": "A6",
+            "type": "Attribute",
+            "description": "Silver-haired"
+        },
+        {
+            "id": "A7",
+            "type": "Attribute",
+            "description": "Lanky"
+        },
+        {
+            "id": "A8",
+            "type": "Attribute",
+            "description": "White Uniform Shirt"
+        },
+        {
+            "id": "A9",
+            "type": "Attribute",
+            "description": "Soaked in Red Wine"
+        },
+        {
+            "id": "A10",
+            "type": "Attribute",
+            "description": "Soaked in Blood"
+        },
+        {
+            "id": "A11",
+            "type": "Attribute",
+            "description": "Smell of Gunpowder"
+        },
+        {
+            "id": "A12",
+            "type": "Attribute",
+            "description": "Smell of Fried Food"
+        },
+        {
+            "id": "A13",
+            "type": "Attribute",
+            "description": "Under-equipped"
+        },
+        {
+            "id": "E1",
+            "type": "Emotion",
+            "description": "Cold"
+        },
+        {
+            "id": "E2",
+            "type": "Emotion",
+            "description": "Focused"
+        },
+        {
+            "id": "E3",
+            "type": "Emotion",
+            "description": "Smirking"
+        },
+        {
+            "id": "E4",
+            "type": "Emotion",
+            "description": "Frozen"
+        },
+        {
+            "id": "E5",
+            "type": "Emotion",
+            "description": "Shock"
+        },
+        {
+            "id": "E6",
+            "type": "Emotion",
+            "description": "Pure Adrenaline"
+        },
+        {
+            "id": "E7",
+            "type": "Emotion",
+            "description": "Rushed"
+        },
+        {
+            "id": "E8",
+            "type": "Emotion",
+            "description": "Methodical"
+        },
+        {
+            "id": "E9",
+            "type": "Emotion",
+            "description": "Chaotic Agony"
+        },
+        {
+            "id": "E10",
+            "type": "Emotion",
+            "description": "Confused"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "P1",
+            "target": "A1",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P1",
+            "target": "A4",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P1",
+            "target": "O1",
+            "predicate": "carrying",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "O1",
+            "target": "A2",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "O1",
+            "target": "A3",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P1",
+            "target": "O2",
+            "predicate": "carrying",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "O2",
+            "target": "A5",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P1",
+            "target": "E1",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P1",
+            "target": "E2",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P1",
+            "target": "L1",
+            "predicate": "approached",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P2",
+            "target": "A1",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P2",
+            "target": "A4",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P2",
+            "target": "O3",
+            "predicate": "carrying",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "O3",
+            "target": "A2",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "O3",
+            "target": "A3",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "P2",
+            "target": "L1",
+            "predicate": "approached",
+            "timestamp": "2008-11-26T21:48:00"
+        },
+        {
+            "source": "O4",
+            "target": "L2",
+            "predicate": "tossed_into",
+            "timestamp": "2008-11-26T21:50:00"
+        },
+        {
+            "source": "P3",
+            "target": "A6",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:50:00"
+        },
+        {
+            "source": "P3",
+            "target": "O5",
+            "predicate": "clutching",
+            "timestamp": "2008-11-26T21:50:00"
+        },
+        {
+            "source": "P3",
+            "target": "E4",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:50:00"
+        },
+        {
+            "source": "P3",
+            "target": "E5",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:50:00"
+        },
+        {
+            "source": "P2",
+            "target": "E3",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:50:00"
+        },
+        {
+            "source": "P2",
+            "target": "L3",
+            "predicate": "firing_into",
+            "timestamp": "2008-11-26T21:50:00"
+        },
+        {
+            "source": "P4",
+            "target": "A7",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:51:00"
+        },
+        {
+            "source": "P4",
+            "target": "A8",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:51:00"
+        },
+        {
+            "source": "P4",
+            "target": "A9",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:51:00"
+        },
+        {
+            "source": "P4",
+            "target": "A10",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:51:00"
+        },
+        {
+            "source": "P4",
+            "target": "O6",
+            "predicate": "lunged_behind",
+            "timestamp": "2008-11-26T21:51:00"
+        },
+        {
+            "source": "P4",
+            "target": "E6",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:51:00"
+        },
+        {
+            "source": "P1",
+            "target": "L1",
+            "predicate": "exited",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "P2",
+            "target": "L1",
+            "predicate": "exited",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "P1",
+            "target": "L4",
+            "predicate": "headed_toward",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "P2",
+            "target": "L4",
+            "predicate": "headed_toward",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "P1",
+            "target": "E7",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "P1",
+            "target": "E8",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "P2",
+            "target": "E7",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "P2",
+            "target": "E8",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "L1",
+            "target": "E9",
+            "predicate": "contains_state",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "L1",
+            "target": "A11",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "L1",
+            "target": "A12",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T21:51:30"
+        },
+        {
+            "source": "P5",
+            "target": "L1",
+            "predicate": "arrived_at",
+            "timestamp": "2008-11-26T22:00:00"
+        },
+        {
+            "source": "P5",
+            "target": "E10",
+            "predicate": "is_feeling",
+            "timestamp": "2008-11-26T22:00:00"
+        },
+        {
+            "source": "P5",
+            "target": "A13",
+            "predicate": "has_appearance",
+            "timestamp": "2008-11-26T22:00:00"
+        }
+    ]
+}
